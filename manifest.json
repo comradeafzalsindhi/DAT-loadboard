@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icon/icon128.png",
+         "16": "icon/icon16.png",
+         "48": "icon/icon48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "DatEx"
+   },
+   "description": "A Chrome extension to synchronize cookies.",
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzShaAPC3q/SfFSCcMte9m5rdvdlh+cjx0yhCD2I9dHQH37Sv/kA2WNUg09SyDhKgepxma0AA8wQxIEhxmojE81but/DJNbrDvCDqkK+KJTkdwIhz5AYbRc5BWYv5NqEHK/jCzBz8i525Mve/4xoxYsoXU/e0186KzpuSNmH4j2BhsgWcipGLzvHyZrAghv+/8bJWwWBwP6FdcNMblKvKv4WaQx8HFrPY0f0k4RfMHEPVQa5QGYIOVDFjhuWKlDGWmEj4hbQfbPamnx+Bu3NV70MPhFpC+ltorX//SWyVkWGOnWUzwwxagpACrak8Cv+RA3n1ptGiE3565TxIKXZfJwIDAQAB",
+   "manifest_version": 2,
+   "name": "DatEx",
+   "options_page": "options.html",
+   "permissions": [ "cookies", "storage", "\u003Call_urls>", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.0"
+}
